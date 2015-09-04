@@ -72,77 +72,57 @@
 
 _你是一个Vim使用者吗？
 
-你不用去重新学习Emacs就能使用Spacemacs！_
+你不用为了使用Spacemacs而去学习Emacs！_
 
 _你是一个Emacs用户吗？_
 
-You do not need to know Vim to use Spacemacs!
+你不用为了使用Spacemacs而去学习Vim！
 
-Since version 0.101.0 and later Spacemacs totally abolishes the frontiers
-between Vim and Emacs. The user can now choose his/her preferred editing
-style and enjoy all the Spacemacs features.
+从0.101.0版本开始，Spacemacs将不再是能使用一种编辑风格了。用户将可以根据自己的爱好去选择不同的编辑风格，Emacs和Vim编辑风格都能享受Spacemacs带来的特性。
 
-Even better, it is possible to dynamically switch between the two
-styles _seamlessly_ which makes it possible for programmers with different
-styles to do seat pair programming using the _same_ editor.
+你不仅仅能够使用两种编辑风格，而且还能无缝，动态切换两种输入方法。这样就可以在结对编程时在同一编辑器上，依据个人不同的编辑爱好使用不同的编辑风格。
 
-Since switching between the two styles is so simple, Spacemacs is the perfect
-setup to learn the "other way" or even crazier, to get the best of both
-worlds by developing your own hybrid style.
+这两种编辑风格如此容易切换，以至于Spacemacs是学习两种编辑方法最好的配置。同时，你也可以将两种编辑风格融合，形成自己的混合编辑方式。
 
-Spacemacs is also a user-friendly and well-documented Emacs kit that
-integrates the best Emacs packages out there. It uses [Evil Mode][] to combine
-the ergonomic editing features of Vim and Emacs with the flexibility of a
-lisp powered engine.
+Spacemacs是集合了Emacs中许多优秀的包，同时对使用者友好，文档化的Emacs kit。Spacemacs通过使用[Evil Mode][]，从而将Vim的符合人体工学的编辑方式和Emacs这个强大的lisp引擎结合起来。
 
-If you are already an experienced Emacs user, you will appreciate the elegantly
-customized system and carefully curated, tightly integrated, set of packages.
+如果你已经是一个有经验的Emacs用户，你将会喜欢上这种优雅的可定制方法。
 
-Spacemacs is currently in beta, and contributions are very welcome.
+Spacemacs还是处于beta状态，欢迎各位的贡献
 
 # Features
 
 ## Batteries Included
 
-Spacemacs integrates hundreds of ready-to-use packages thanks to a
-community-driven approach.
+Spacemacs集合了上百个现有的包，在此感谢这种社区驱动的方法。
 
-Those packages are grouped in [layers][] and their configuration follow a set
-of rules gathered in [CONVENTIONS.org][].
+这些包是按[layers][]来组织，遵守这些通用的约得[CONVENTIONS.org][].
 
 **[Visit the Documentation][DOCUMENTATION.org]**
 
 ## Nice UI
 
-Spacemacs looks good. It ships with quality themes and a beautiful mode-line.
+Spacemacs的UI很好看，这个UI附带一个高质量的主题和一个漂亮的mode-line。
 
 ![spacemacs_python](doc/img/spacemacs-python.png)
 
 ## Excellent ergonomics
 
-Spacemacs is designed around the [Evil Mode][] and a leader key. All the
-packages are customized to integrate seamlessly with Evil.
+Spacemacs是以[Evil Mode][]和a leader key为中心设计的，所有的包都被无缝的和Evil结合在一起。
 
-Spacemacs also define micro-states to group related commands. These
-micro-states reduce the keystrokes needed to issue repetitive commands and
-reduce the number of keyboard bindings to learn.
+Spacemacs通过micro-states组织相关命令，通过micro-states可以减少击键的次数，也可以减少对按键绑定的学习。
 
 ## Convenient and Mnemonic Key Bindings
 
-`Spacemacs` organizes key bindings into mnemonic groups. For example, commands
-to operate on the buffer are prefixed by `<SPC> b`, and commands to operate on
-the project are under `<SPC> p`.
+`Spacemacs` 组织案件的方法是以易于记忆为主。比如，操作buffer的按键前缀是 `<SPC> b`，操作project的按键前缀是 `<SPC> p`。
 
 ### Great [Documentation][DOCUMENTATION.org]
 
-Most of Spacemacs' features, key bindings, and configuration options
-are extensively documented.
+绝大多数Spacemacs特性，按键绑定，配置选项都在文档里有记载。
 
-If you need help, ask your question in the [Gitter Chat][] and a member of the
-community will help you out.
+如果你需要帮助，你可以在 [Gitter Chat][] 提问，会有社区成员给予你帮助。
 
-If you prefer IRC, connect to the [Gitter Chat IRC server][] and join the
-`#syl20bnr/spacemacs` channel.
+如果你喜欢IRC，那么你可以通过[Gitter Chat IRC server][]参加`#syl20bnr/spacemacs`频道获取帮助。
 
 # Prerequisites
 
@@ -208,7 +188,7 @@ For efficient searches we recommend to install `pt` ([the platinum searcher][]).
 
 # Install
 
-1. If you have an existing Emacs configuration, back it up:
+1. 如果你自己已经有Emacs配置文件，那么先备份一下:
 
    ```sh
    cd ~
@@ -285,30 +265,25 @@ listed first.
 
 # Configuration
 
-`Spacemacs` divides its configuration into self-contained units called
-[configuration layers][config]. These layers are stacked on top of each other
-to achieve a custom configuration.
+`Spacemacs`将不同的配置通过[configuration layers][config]划分为不同的单元，所以的配置变量都在这些单元中。
 
-`Spacemacs` uses the dotfile `~/.spacemacs` to control which layers to
-load. Within this file you may also generally configure certain features.
+`Spacemacs` 通过 `~/.spacemacs` 文件去控制哪些 layers 需要加载，同时，这个文件中还可以通过变量启用不同的特性。
 
 ## Configuration layers
 
-A configuration layer is a directory containing at least the following files:
+没一个配置单元目录都包括以下几个问价：
 
-- `packages.el`: Defines and configures packages to be downloaded from Emacs
-package repositories using `package.el`
+- `packages.el`: 定义和配置需要下载的Emacs包需要使用 `package.el`文件
 - `extensions.el`: Configures packages which cannot be downloaded with
   `package.el` such as built-in Emacs features and git submodules.
 
-If you already have your own `Emacs` configuration you can move it to your
-own layer.
+如果你已经有一份Emacs配置你可以将其移入你自己的配置单元（layer）中。
 
-The following command creates a layer in the `private` directory:
+下面的命令将在 `private` 目录中新建一个layer：
 
     <SPC> : configuration-layer/create-layer RET
 
-Any configuration layers you create must be explicitly loaded in `~/.spacemacs`.
+你创建的任何layers都必须在 `~/.spacemacs` 中声明。
 
 **Note:** For your privacy, the contents of the `private` directory are not
 under source control. See the documentation for a discussion on how to
@@ -316,18 +291,17 @@ under source control. See the documentation for a discussion on how to
 
 ## Dotfile (.spacemacs)
 
-As mentioned `.spacemacs` controls which configuration layers to load and
-is also a means to customizing `Spacemacs`.
+在文件 `.spacemacs` 中配置需要加载的layers就是一种定制 `Spacemacs` 的方法。
 
 The following command will create a `.spacemacs` file in your home directory:
 
     <SPC> : dotspacemacs/install RET
 
-...to open the installed dotfile:
+...在Emacs中打开该文件的方法：
 
     <SPC> f e d
 
-...to load some configuration layers using the variable
+...通过以下变量可以定制需要加载的layers
 `dotspacemacs-configuration-layers`:
 
 ```elisp
@@ -335,9 +309,7 @@ The following command will create a `.spacemacs` file in your home directory:
 dotspacemacs-configuration-layers '(auto-completion smex)
 ```
 
-Some configuration layers support configuration variables to expose granular
-control over layer-specific features, [git layer][] being one such example.
-Variables can be directly set within `dotspacemacs-configuration-layers` like so:
+有些layers支持不同的配置变量，通过这些变量可以定制这些layers的特性。比如，在layer [git layer]中，变量可以在 `dotspacemacs-configuration-layers` 做如下修改：
 
 ```elisp
 ;; List of configuration layers to load.
@@ -347,20 +319,15 @@ dotspacemacs-configuration-layers '(auto-completion
                                     smex)
 ```
 
-At anytime you can apply the changes made to the dotfile or layers
-_without restarting_ `Spacemacs` by pressing <kbd>SPC f e R</kbd>.
+在任何时候你都可以通过 <kbd>SPC f e R</kbd> 应用你的修改，而不用重启 `Spacemacs` 。
 
-The [comments in this file][dotfile template] contain further information about
-how to customize `Spacemacs`. See the [dotfile configuration][dotfile] section of
-the documentation for more details.
+在文件 `~/.spacemacs` 中有更详细的定制方法，你可以打开文件查看。
 
 # Learning Spacemacs
 
 ## Editing Styles
 
-Spacemacs can be used by Vim users or Emacs users by setting the
-`dotspacemacs-editing-style` variable to `'vim` or `'emacs` in the dotfile
-`~/.spacemacs`.
+Spacemacs 通过给文件 `~/.spacemacs`变量 `dotspacemacs-editing-style` 赋予 `'vim` 或 `'emacs` 的值来定义不同的编辑风格。
 
 ## The leader keys
 
@@ -419,12 +386,12 @@ which would list all `buffer` related bindings.
 `Describe functions` are powerful Emacs introspection commands to get information
 about functions, variables, modes etc. These commands are bound thusly:
 
-Key Binding   |                 Description
+快捷键        |                 功能
 --------------|------------------------------------------------------------------
-`<SPC> h d f` | describe-function
-`<SPC> h d k` | describe-key
-`<SPC> h d m` | describe-mode
-`<SPC> h d v` | describe-variable
+`<SPC> h d f` | describe函数
+`<SPC> h d k` | describe按键
+`<SPC> h d m` | describe模式
+`<SPC> h d v` | describe变量
 
 # How-To's
 
