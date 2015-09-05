@@ -331,26 +331,19 @@ Spacemacs 通过给文件 `~/.spacemacs`变量 `dotspacemacs-editing-style` 赋�
 
 ## The leader keys
 
-`Spacemacs` key bindings use a leader key which is by default bound to
-<kbd>SPC</kbd> (space bar) in `vim` editing style and <kbd>M-m</kbd> in
-`emacs` style.
+`Spacemacs` 按键绑定，在`vim`中，使用了<kbd>SPC</kbd> (space bar)作为 leader 键，在`emacs`编辑模式中使用了 <kbd>M-m</kbd> 作为 leader 键。
 
-You can change it by setting the variable `dotspacemacs-leader-key` if
-you use the `vim` style or `dotspacemacs-emacs-leader-key` if you use
-the `emacs` style (these variables must be set in the file `~/.spacemacs`).
+在`vim`编辑模式中你可以通过修改文件 `~/.spacemacs` 中变量 `dotspacemacs-leader-key`定制leader键。
 
-For simplicity the documentation always refers to the leader key as
-<kbd>SPC</kbd>.
+在`emacs`编辑模式中你可以通过修改文件 `~/.spacemacs`中变量`dotspacemacs-emacs-leader-key`定制leader键
 
-There is secondary leader key called the major-mode leader key which is
-set to <kbd>,</kbd> by default. This key is a shortcut for <kbd>SPC m</kbd>
-where all the major-mode specific commands are bound.
+问了叙述方便，在文档中，我们默认将<kbd>SPC</kbd>作为leader键。
+
+在major-mode 中 <kbd>,</kbd> 默认作为第二leader键。在major-mode中 <kbd>SPC m</kbd> = <kbd>,</kbd>
 
 ## Evil-tutor
 
-If you are willing to learn the Vim key bindings (highly recommended since
-you can benefit from them even in `emacs` style), press <kbd>SPC h T</kbd>
-to begin an Evil-adapted Vimtutor.
+如果你像学习Vim编辑风格，那么你可以按<kbd>SPC h T</kbd>进入Evil-adapted Vimtutor。
 
 ## Universal argument
 
@@ -383,15 +376,14 @@ which would list all `buffer` related bindings.
 
 ## Describe functions
 
-`Describe functions` are powerful Emacs introspection commands to get information
-about functions, variables, modes etc. These commands are bound thusly:
+`Describe functions`是Emacs中一种很强大的自省命令，你可以查看函数、变量、按键和modes的信息。
 
 快捷键        |                 功能
 --------------|------------------------------------------------------------------
-`<SPC> h d f` | describe函数
-`<SPC> h d k` | describe按键
-`<SPC> h d m` | describe模式
-`<SPC> h d v` | describe变量
+`<SPC> h d f` | 函数
+`<SPC> h d k` | 按键
+`<SPC> h d m` | 模式
+`<SPC> h d v` | 变量
 
 # How-To's
 

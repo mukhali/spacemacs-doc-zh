@@ -165,9 +165,9 @@
  - [[#thank-you][Thank you]]
 
 * Core Pillars
-Four core pillars: Mnemonic, Discoverability, Consistency, "Crowd-Configured".
+四个核心哲学： Mnemonic, Discoverability, Consistency, "Crowd-Configured".
 
-If any of these core pillars is violated open an issue and we'll fix it.
+在任何时候，如果你发现有任何事物和这四个核心向冲突，你都可以打开一个issue，我们将尽快修改它。
 
 ** Mnemonic
 =Spacemacs= organizes key bindings by mnemonic namespaces as much as possible. If

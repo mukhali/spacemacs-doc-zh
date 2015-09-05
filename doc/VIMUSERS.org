@@ -34,14 +34,13 @@
  - [[#other-useful-links][Other useful links]]
 
 * Purpose of this document
-This document is intended to supplement the Spacemacs documentation by bridging
-the gap between vim and Spacemacs. While some information may be duplicated,
-this does not replace the Spacemacs documentation. It is recommended that you
-read both files to fully understand Spacemacs.
+该文档主要是用来补充=Documentation=文件中关于=vim=和=emacs=叙述的不足。有可能该文档
+和=Documentation=文件有重合的地方，建议你两份文档都读，这样你就不会有遗漏了。
 
 [[file:DOCUMENTATION.org][Spacemacs Documentation]]
 
 * Philosophy
+
  One misconception many vim users have is that Spacemacs is an Emacs /clone/ of
  vim. Spacemacs does not seek to completely mimic the behavior of vim
  everywhere, only when editing. You should not expect every vim command to be

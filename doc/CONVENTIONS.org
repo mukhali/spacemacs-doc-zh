@@ -36,31 +36,32 @@
 
 ** Code guidelines
 *** Spacemacs core and layer
-Function names follow these conventions:
-  - =spacemacs/xxx= is an interactive function called =xxx=
-  - =spacemacs//xxx= is a private function called =xxx= (implementation details)
-  - =spacemacs|xxx= is a /macro/ called =xxx=
+函数应该遵循一下约定：
+  - =spacemacs/xxx= 可交互函数 =xxx=
+  - =spacemacs//xxx= 私有函数 =xxx= (implementation details)
+  - =spacemacs|xxx= 是宏 =xxx=
 
-Variables follow these conventions:
-  - =spacemacs-xxx= is a variable
-  - =spacemacs--xxx= is a private variable (implementation details)
+变量遵循以下约定：
+  - =spacemacs-xxx= 普通变量
+  - =spacemacs--xxx= 私有变量(implementation details)
 
 *** All layers
-A package is initialized in a function with name =<layer>/init-xxx= where:
-  - =<layer>= is the layer name
-  - =xxx= is the package name
+一个包在函数 =<layer>/init-xxx= 中完成初始化，其中：
+  - =<layer>= layer的名字
+  - =xxx= 包名
 
 ** Key bindings conventions
 
 *** Reserved prefix
 **** User prefix
-~SPC o~ must not be used by any layer. It is reserved for the user.
+~SPC o~ 任何layer都不能使用，自能保留给用户自由定制。
 
 **** Major mode prefix
-~SPC m~ is reserved for the current major mode. Three keys bindings are not an
-issue (ie. ~SPC m h d~) since ~SPC m~ can be accessed via ~,~.
+~SPC m~ 保留为当前major mode使用。三个按键也可以(比如。 ~SPC m h d~) ，
+因为 ~SPC m~ = ~,~。
 
 **** Micro-state
+
 Whenever possible a micro-state should be enabled with ~M-SPC~ and ~s-M-SPC~. We
 need the latter bindings on OS X since ~M-SPC~ is used by the OS for spotlight.
 
