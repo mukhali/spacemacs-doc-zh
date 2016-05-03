@@ -3,19 +3,19 @@
 ***
 <p align="center"><img src="/doc/img/title2.png" alt="Spacemacs"/></p>
 <p align="center">
-<b><a href="doc/DOCUMENTATION#orgheadline5">philosophy</a></b>
+<b><a href="http://spacemacs.org/doc/DOCUMENTATION#orgheadline5">philosophy</a></b>
 |
-<b><a href="doc/DOCUMENTATION#orgheadline8">for whom?</a></b>
+<b><a href="http://spacemacs.org/doc/DOCUMENTATION#orgheadline8">for whom?</a></b>
 |
-<b><a href="doc/DOCUMENTATION#orgheadline7">screenshots</a></b>
+<b><a href="http://spacemacs.org/doc/DOCUMENTATION#orgheadline7">screenshots</a></b>
 |
-<b><a href="doc/DOCUMENTATION.html">documentation</a></b>
+<b><a href="http://spacemacs.org/doc/DOCUMENTATION.html">documentation</a></b>
 |
 <b><a href="CONTRIBUTING.org">contribute</a></b>
 |
-<b><a href="doc/DOCUMENTATION#orgheadline187">achievements</a></b>
+<b><a href="http://spacemacs.org/doc/DOCUMENTATION#orgheadline187">achievements</a></b>
 |
-<b><a href="doc/FAQ">FAQ</a></b>
+<b><a href="http://spacemacs.org/doc/FAQ">FAQ</a></b>
 </p>
 ***
 <p align="center">
@@ -62,7 +62,8 @@
 
 # Introduction
 
-Spacemacs 是一种体验Emacs的新方法。它优雅而漂亮，它看着按键的一致性、易于记忆和符合人体工学的特点。
+Spacemacs is a new way to experience Emacs -- a sophisticated and
+polished set-up focused on ergonomics, mnemonics and consistency.
 
 Just clone it, launch it, then press the space bar to explore the
 interactive list of carefully-chosen key bindings. You can also press
@@ -73,7 +74,7 @@ Spacemacs can be used naturally by both Emacs and Vim users -- you can
 even mix the two editing styles. Switching easily between input styles
 makes Spacemacs a great tool for pair-programming.
 
-Spacemacs 现在还处于beta版，欢迎大家努力改善。
+Spacemacs is currently in beta, and contributions are very welcome.
 
 ![spacemacs_python](doc/img/spacemacs-python.png)
 
