@@ -62,8 +62,7 @@
 
 # Introduction
 
-Spacemacs is a new way to experience Emacs -- a sophisticated and
-polished set-up focused on ergonomics, mnemonics and consistency.
+Spacemacs 是一种对Emacs的体验方式，Spacemacs的开发目标是：符合人体工学、易于记忆、按键一致性。
 
 Just clone it, launch it, then press the space bar to explore the
 interactive list of carefully-chosen key bindings. You can also press
