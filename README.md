@@ -3,19 +3,19 @@
 ***
 <p align="center"><img src="/doc/img/title2.png" alt="Spacemacs"/></p>
 <p align="center">
-<b><a href="http://spacemacs.org/doc/DOCUMENTATION#orgheadline5">philosophy</a></b>
+<b><a href="DOCUMENTATION#orgheadline5">哲学</a></b>
 |
-<b><a href="http://spacemacs.org/doc/DOCUMENTATION#orgheadline8">for whom?</a></b>
+<b><a href="DOCUMENTATION#orgheadline8">使用对象?</a></b>
 |
-<b><a href="http://spacemacs.org/doc/DOCUMENTATION#orgheadline7">screenshots</a></b>
+<b><a href="DOCUMENTATION#orgheadline7">截屏</a></b>
 |
-<b><a href="http://spacemacs.org/doc/DOCUMENTATION.html">documentation</a></b>
+<b><a href="DOCUMENTATION.html">文档</a></b>
 |
-<b><a href="CONTRIBUTING.org">contribute</a></b>
+<b><a href="CONTRIBUTING.org">贡献者</a></b>
 |
-<b><a href="http://spacemacs.org/doc/DOCUMENTATION#orgheadline187">achievements</a></b>
+<b><a href="DOCUMENTATION#orgheadline187">成就</a></b>
 |
-<b><a href="http://spacemacs.org/doc/FAQ">FAQ</a></b>
+<b><a href="FAQ">FAQ</a></b>
 </p>
 ***
 <p align="center">
